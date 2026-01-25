@@ -103,7 +103,6 @@ function Prices() {
       </div>
         </div>
       <div className='button-tag'>
-        {/* Change this button to type="submit" */}
         <button className='button' type="submit">Submit</button>
       </div>
     </form>
@@ -125,16 +124,14 @@ function Prices() {
       }
       {!isLoading && records.length > 0 && (
         <div ref={resultsRef} className='flex justify-center mt-6'>
-          <table className="table">
+<div className="w-full overflow-x-auto px-4">
+    <table className="table-container table-auto w-full border-collapse border border-black-800">
             <thead>
               <tr>
-                <th>State</th>
-                <th>District</th>
                 <th>Market</th>
                 <th>Commodity</th>
                 <th>Variety</th>
                 <th>Grade</th>
-                <th>Arrival Date</th>
                 <th>Min Price</th>
                 <th>Max Price</th>
                 <th>Modal Price</th>
@@ -143,13 +140,10 @@ function Prices() {
             <tbody>
               {sortedRecords.map((record, index) => (
                 <tr key={index}>
-                  <td>{record.State}</td>
-                  <td>{record.District}</td>
                   <td>{record.Market}</td>
                   <td>{record.Commodity}</td>
                   <td>{record.Variety}</td>
                   <td>{record.Grade}</td>
-                  <td>{record.Arrival_Date}</td>
                   <td>{record.Min_Price}</td>
                   <td>{record.Max_Price}</td>
                   <td>{record.Modal_Price}</td>
@@ -157,6 +151,7 @@ function Prices() {
               ))}
             </tbody>
           </table>
+        </div>
         </div>
       )}
     </>
