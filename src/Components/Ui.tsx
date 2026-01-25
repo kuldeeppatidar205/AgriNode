@@ -25,7 +25,7 @@ function Ui(){
     <div className="hero">
       <div className="hero-one">
         <p><u>Live Trends in Market prices</u></p>
-        <img src="assets/Code_Generated_Image.png"></img>
+        <img src="assets\graph image.jpg"></img>
       </div>
       <div className="hero-two">
         <p>List of commodities covered as of now</p>

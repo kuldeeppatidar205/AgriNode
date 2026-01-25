@@ -103,7 +103,7 @@ body {
     justify-content: space-between;
     padding: 50px 5%;
     gap: 40px;
-    min-height: 80vh;
+    min-height: 70vh;
 }
 
 .hero-one {
@@ -235,7 +235,10 @@ th,td {
 th {
     background-color: #f4f4f4;
 }
-
+.info{
+    text-align: center;
+    font-size: 1.4rem;
+}
 /* 5. MEDIA QUERIES - Mobile & Tablet */
 
 @media (max-width: 992px) {
@@ -292,5 +295,59 @@ th {
 }
 
 
+/******Footer *****/
+.footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 40px 5% 20px;
+    margin-top: 50px;
+}
 
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
 
+.footer-brand, .footer-links, .footer-contact {
+    flex: 1;
+    min-width: 250px; 
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 3px;
+}
+
+.footer-links a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+.social-icons i{
+    margin-right: 10px;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+@media (max-width: 600px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}

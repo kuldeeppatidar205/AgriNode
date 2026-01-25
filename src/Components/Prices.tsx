@@ -96,7 +96,7 @@ function Prices() {
         <input className="input-form"  placeholder="Enter District" type="text" name="district" onChange={e => setDistrict(e.target.value)} />
       </div>
       <div>
-        <input className="input-form" type="date" name="date" onChange={e => setDate(e.target.value)} />
+        <input className="input-form" placeholder="Enter Date" type="date" name="date" onChange={e => setDate(e.target.value)} />
       </div>
       <div>
         <input className="input-form"  placeholder="Enter Commodity" type="text" name="commodity" onChange={e => setCommodity(e.target.value)} />
