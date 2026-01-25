@@ -83,9 +83,9 @@ function Prices() {
 
   return (
     <>
-      <h1 className='text-4xl text-center pt-2'>
+      <p className=' text-center pt-2 heading'>
       Enter the details to get the information of the prices of different commodities.
-    </h1>
+    </p>
 
     <form onSubmit={handleSubmit} >
         <div className='my-form'>
