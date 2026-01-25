@@ -2,9 +2,9 @@
 function Ui(){
     
     return(<>
-   
+    <div id="main"></div>
     <div className="navbar">
-      <div className="nav-one">
+      <div className="nav-one" >
         <p>AgriNode</p>
         <img src="assets\Gemini_Generated_Image_eslq8beslq8beslq.png"></img>
       </div>
@@ -13,8 +13,8 @@ function Ui(){
         <i className="fa-solid fa-magnifying-glass"></i>
       </div>
       <div className="nav-three">
-        <p>Home</p>
-        <p>Live Updates</p>
+        <a href="#main" >Home</a>
+        <a href="#Second-Section">Live Updates</a>
         <div className="nav-profile">
           <img src="assets/crypto.webp"></img>
           <p>Profile</p>
@@ -57,7 +57,7 @@ function Ui(){
         </ul>
       </div>
     </div>
-    <hr></hr>
+    <hr id="Second-Section"></hr>
     </>)
 }
 export default Ui

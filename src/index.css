@@ -8,6 +8,9 @@
   height: 150px;
   font-size: 25px;
 }
+html{
+    scroll-behavior: smooth;
+}
 .main{
   text-align: center;
   display: flex;
