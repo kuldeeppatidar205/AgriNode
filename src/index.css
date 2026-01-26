@@ -185,7 +185,7 @@ body {
     padding: 30px 5%;
 }
 
-input::placeholder{
+.input-form::placeholder{
     color:white;
 }
 .input-form {
@@ -338,6 +338,7 @@ th {
 }
 .social-icons i{
     margin-right: 10px;
+    font-size: 1.5rem;
 
 }
 .footer-bottom {

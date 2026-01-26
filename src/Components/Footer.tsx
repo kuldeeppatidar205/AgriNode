@@ -19,9 +19,9 @@ export default function Footer() {
           <h4>Contact</h4>
           <p>Email: kuldeeppatel2052007@gmail.com</p>
           <div className="social-icons">
-            <a href="https://github.com/kuldeeppatidar205">
+            <a target="_blank"  rel="noopener noreferrer" href="https://github.com/kuldeeppatidar205">
             <i className="fa-brands fa-github"></i></a>
-            <a href="www.linkedin.com/in/kuldeep-patidar-4ab9a2367">
+            <a target="_blank" rel="noopener noreferrer" href="www.linkedin.com/in/kuldeep-patidar-4ab9a2367">
             <i className="fa-brands fa-linkedin"></i></a>
           </div>
         </div>

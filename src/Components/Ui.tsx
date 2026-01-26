@@ -16,7 +16,7 @@ function Ui(){
         <a href="#main" >Home</a>
         <a href="#Second-Section">Live Updates</a>
         <div className="nav-profile">
-          <img src="assets/crypto.webp"></img>
+          <img src="assets\Gemini_Generated_Image_xg0xmzxg0xmzxg0x.png"></img>
           <p>Profile</p>
         </div>
       </div>
