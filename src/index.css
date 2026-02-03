@@ -369,3 +369,13 @@ select.input-form {
     color: white;
     cursor: pointer;
 }
+.date-input:before {
+  content: attr(data-placeholder);
+  width: 100%;
+  color: #aaa;
+}
+
+.date-input:focus:before,
+.date-input:valid:before {
+  display: none;
+}

@@ -154,7 +154,8 @@ function Prices() {
 
           <div>
             <input 
-              className="input-form" 
+              className="input-form date-input" 
+              data-placeholder="Enter Date"
               type="date" 
               name="date" 
               onChange={e => setDate(e.target.value)} 
