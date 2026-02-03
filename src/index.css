@@ -189,7 +189,7 @@ body {
     color:white;
 }
 .input-form {
-    background-color: #3a5268;
+    background-color: #20354a;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -365,7 +365,7 @@ select.input-form {
     background-position: right 10px center;
     background-size: 1em;
     padding-right: 40px;
-    background-color: #3a5268; /* Matches your current input color */
+    background-color: #20354a; 
     color: white;
     cursor: pointer;
 }

@@ -54,6 +54,14 @@ function Ui(){
             <img src="assets/sandy-ravaloniaina-rARwqh9IXEE-unsplash.jpg"></img>
             <div className="name">Rice</div>
           </li>
+          <li className="items six">
+            <img src="assets/Image-Bengal-Gram.jpg"></img>
+            <div className="name">Bengal Gram</div>
+          </li>
+          <li className="items six">
+            <img src="assets/corn-plantation-sunny-day_74692-867.avif"></img>
+            <div className="name">Maize</div>
+          </li>
         </ul>
       </div>
     </div>
