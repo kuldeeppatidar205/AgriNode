@@ -59,7 +59,7 @@ function Ui(){
             <div className="name">Bengal Gram</div>
           </li>
           <li className="items six">
-            <img src="assets/corn-plantation-sunny-day_74692-867.avif"></img>
+            <img src="assets\corn-plantation-sunny-day_74692-867.jpg"></img>
             <div className="name">Maize</div>
           </li>
         </ul>
