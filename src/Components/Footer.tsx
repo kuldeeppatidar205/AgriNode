@@ -21,7 +21,7 @@ export default function Footer() {
           <div className="social-icons">
             <a target="_blank"  rel="noopener noreferrer" href="https://github.com/kuldeeppatidar205">
             <i className="fa-brands fa-github"></i></a>
-            <a target="_blank" rel="noopener noreferrer" href="www.linkedin.com/in/kuldeep-patidar-4ab9a2367">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kuldeep-patidar-4ab9a2367">
             <i className="fa-brands fa-linkedin"></i></a>
           </div>
         </div>
