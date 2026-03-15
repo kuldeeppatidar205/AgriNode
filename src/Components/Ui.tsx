@@ -6,7 +6,7 @@ function Ui(){
     <div className="navbar">
       <div className="nav-one" >
         <p>AgriNode</p>
-        <img src="assets\Gemini_Generated_Image_eslq8beslq8beslq.png"></img>
+        <img src="assets\logo.png"></img>
       </div>
       <div className="nav-two">
         <input placeholder="Search AgriMore"></input>
@@ -16,7 +16,7 @@ function Ui(){
         <a href="#main" >Home</a>
         <a href="#Second-Section">Live Updates</a>
         <div className="nav-profile">
-          <img src="assets\Gemini_Generated_Image_xg0xmzxg0xmzxg0x.png"></img>
+          <img src="assets\profile.png"></img>
           <p>Profile</p>
         </div>
       </div>
@@ -31,19 +31,19 @@ function Ui(){
         <p>List of commodities covered as of now</p>
         <ul>
           <li className="items one">
-            <img src="assets/polina-rytova-1dGMs4hhcVA-unsplash.jpg"></img>
+            <img src="assets/wheat.jpg"></img>
             <div className="name">Wheat</div>
           </li>
           <li className="items two">
-            <img src="assets/shelley-pauls-MSJMH0zW64c-unsplash.jpg"></img>
+            <img src="assets/garlic.jpg"></img>
             <div className="name">Garlic</div>
           </li>
           <li className="items three">
-            <img src="assets\engin-akyurt-Mpnv7-1mNzg-unsplash.jpg"></img>
+            <img src="assets\onion.jpg"></img>
             <div className="name">Onion</div>
           </li>
           <li className="items four">
-            <img src="assets/sheikh-mohammad-fahim-DnazVet8pEM-unsplash.jpg"></img>
+            <img src="assets/mustard.jpg"></img>
             <div className="name">Mustard</div>
           </li>
           <li className="items five">
@@ -51,15 +51,15 @@ function Ui(){
             <div className="name">Soyabean</div>
           </li>
           <li className="items six">
-            <img src="assets/sandy-ravaloniaina-rARwqh9IXEE-unsplash.jpg"></img>
+            <img src="assets/rice.jpg"></img>
             <div className="name">Rice</div>
           </li>
           <li className="items six">
-            <img src="assets/Image-Bengal-Gram.jpg"></img>
+            <img src="assets/Bengal-Gram.jpg"></img>
             <div className="name">Bengal Gram</div>
           </li>
           <li className="items six">
-            <img src="assets\corn-plantation-sunny-day_74692-867.jpg"></img>
+            <img src="assets\corn.jpg"></img>
             <div className="name">Maize</div>
           </li>
         </ul>
