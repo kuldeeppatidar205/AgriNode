@@ -207,8 +207,6 @@ function Prices() {
                 <tr>
                   <th>Market</th>
                   <th>Commodity</th>
-                  <th>Variety</th>
-                  <th>Grade</th>
                   <th>Min Price</th>
                   <th>Max Price</th>
                   <th>Modal Price</th>
@@ -219,8 +217,6 @@ function Prices() {
                   <tr key={index}>
                     <td>{record.Market}</td>
                     <td>{record.Commodity}</td>
-                    <td>{record.Variety}</td>
-                    <td>{record.Grade}</td>
                     <td>{record.Min_Price}</td>
                     <td>{record.Max_Price}</td>
                     <td>{record.Modal_Price}</td>
