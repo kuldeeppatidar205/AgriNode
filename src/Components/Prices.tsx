@@ -118,7 +118,7 @@ function Prices() {
       <p className='text-center pt-2 heading'>
         Enter the details to get the information of the prices of different commodities.
       </p>
-
+    <p className='text- text-center disclaimer'>*Some of the markets may not show data because of low digitalization*</p>
       <form onSubmit={handleSubmit}>
         <div className='my-form'>
           <div>

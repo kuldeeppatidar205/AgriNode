@@ -32,4 +32,4 @@ In some regions, farmers often lack real-time price transparency. AgriNode aggre
 - [ ] **Multi-language Support:** Adding Hindi and local dialects for better accessibility.
 
 ---
-Created with ❤️ by [Kuldeep Patidar](www.linkedin.com/in/kuldeep-patidar-4ab9a2367)
+Created with ❤️ by [Kuldeep Patidar](www.linkedin.com/in/kuldeep-patidar-4ab9a2367)969
